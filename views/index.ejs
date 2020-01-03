@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>Signin Page</title>
+  <meta name="google-signin-client_id" content="913146721974-e6ciak8qihkg5g1mn20gs2k89h38pqdg.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/sign-in/">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .g-signin2{
+        margin-left: 80px;
+        margin-bottom: 10px;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form  action="/" method="post" class="form-signin">
+  <img class="mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rv_jpPj-1kokUeQkXn0VSFc_2P9TwJ-IlbKwVpFvuC169FtjbQ&s"  width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+  <label for="inputEmail" class="sr-only">Email address</label>
+  <input type="text" id="inputEmail" name ="email" class="form-control" placeholder="Email address" required autofocus>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input type="password" name="pass" id="inputPassword" class="form-control" placeholder="Password" required>
+<div class="g-signin2"  data-onsuccess="onSignIn" data-theme="dark"></div>
+
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <p class="mt-5 mb-3 text-muted">&copy; Made by Harsh Singhal</p>
+</form>
+
+</body>
+
+</html>
